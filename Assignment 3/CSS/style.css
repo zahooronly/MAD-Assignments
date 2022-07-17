@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@100&display=swap');
+body{
+    padding:0px;
+    margin:5px 5px 0 20px;
+}
+.items p,p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+li, a, button{
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+}
+nav{
+    display: inline;
+    float:right;
+}
+header{
+    position: sticky;
+    top: 45px;
+    display: inline;
+    align-items: center;
+}
+.logo, button{
+    cursor: pointer;
+}
+.logo{
+    margin-right: 100px;
+}
+.navbar {
+    list-style: none;
+    margin-left: 150px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar li a{
+    transform: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color:rgb(252 93 53);
+}
+.botton{
+    margin-top: 50px;
+}
+.btn{
+    background-color:rgb(252 93 53);
+    color: white;
+    padding: 10px 20px;
+    border:none;  
+    margin-left: 20px;
+    border-radius: 20px;
+    transform: all 0.3s ease 0s;
+}
+.btn:hover{
+    background-color: black;
+}
+.bbtn{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border:none;  
+    border-radius: 20px;
+    transform: all 0.3s ease 0s;
+}
+.bbtn:hover{
+    /* color:rgb(252 93 53); */
+    background-color: rgb(252 93 53);
+}
+.bttn{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 40% 0 40%;
+    border:none;  
+    border-radius: 20px;
+    transform: all 0.3s ease 0s;
+}
+.bttn:hover{
+    background-color: rgb(252 93 53);
+}
+.search{
+    height: 25px;
+}
+.slider{
+    display: inline-block;
+    margin: 100px 0px;
+}
+#left{
+    float: left;
+    display: inline;
+    width: 50%;
+}
+#left h1{
+    font-size: 60px;
+    margin-top: -8px;
+}
+#left p{
+    width: 80%;
+    font-size: 17px;
+}
+#right{
+    float: right;
+    display: inline;
+    width: 50%;
+}
+.slide{
+    float:right;
+    height: 300px;
+    margin: 0 100px 0 0;
+}
+.services{
+    /* align-items: center; */
+    margin: 50px;
+    display: inline-block;
+}
+.items{
+    border: 0.3px solid rgb(151, 151, 151);
+    padding: 40px 5px 5px 5px;
+    width: 30%;
+    float:left;
+    margin: 0px 10px;
+    text-align: center;
+}
+.items img{
+    height: 60px;
+}
+.items h3{
+    color:rgb(252 93 53) ;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+}
+div.orange{
+    display: inline-block;
+}
+.fruits p{
+    font-size: 17px;
+    text-align: center;
+    margin: 30px 50px;
+}
+.fruits h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+.text{
+    width:60% ;
+    float:left;
+}
+.text p{
+    width: 100%;
+    text-align: justify;
+    font-size: 17px;
+}
+.img{
+    width: 40%;
+    float:right;
+    /* margin-right: -100px; */
+}
+.img img{
+    margin-left: 150px;
+}
+div.fruit{
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.client {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  .testimonial{
+      margin-bottom: 50px;
+  }
+#contact input,#contact textarea{
+    display: block;
+    margin: 20px 0px;
+    padding: 5px 40px 0 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid ;
+    border-color: rgb(252 93 53);
+    width: 100%;
+    float: left;
+}
+.contact{
+    display: inline-block;
+    margin-bottom: 100px;
+}
+#r{
+    display: inline;
+    float: right;
+    width: 50%;
+    margin-right: -50px;
+    margin-top: 20px;
+}
+#r img{
+    margin-left: 120px;
+}
+#l{
+    display: inline;
+    float: left;
+    width: 50%;
+}
+.footer{
+    display: inline-block;
+    background-color: none;
+}
+.one, .two, .three, .four{
+    padding: 60px;
+    float: left;
+}
+.one ul, .two ul, .three ul{
+    list-style: none;
+    text-align: left;
+}
+.one a:hover, .two a:hover, .three a:hover{
+    text-decoration: underline;
+}
+.copyright p{
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+}

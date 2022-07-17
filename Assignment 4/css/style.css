@@ -1,0 +1,318 @@
+@font-face {
+    font-family: NewYorkExtraLarge;
+    src: url('/Font/NewYorkMediumBold-2.ttf');
+}
+@font-face {
+    font-family: NewYorkMedium;
+    src: url('/Font/NewYorkExtraLargeMedium.ttf');
+}
+@font-face {
+    font-family: NewYorkSmall;
+    src: url('/Font/NewYorkSmallRegular.ttf');
+}
+@font-face {
+    font-family: SFMono;
+    src: url('/Font/SFMono-Regular.ttf');
+}
+@font-face {
+    font-family: SF Display;
+    src: url('/Font/SFProDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: SF Test Pro;
+    src: url('/Font/SFProDisplay-Regular.ttf');
+}
+body{
+    margin: 0%;
+    margin-top: 1em;
+    padding: 0%;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+    .menu ul{
+        position:fixed;
+        top:41px;
+        left:0%;
+        width:100%;
+        height:auto;
+        background-color: #030303;
+        display: block;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .menu ul li{
+        /* margin-left: 25%; */
+        text-align: center;
+        display: block;
+    }
+    .menu ul li a{
+            color: white;
+            display: flex;
+            margin: 0px 5px;
+        }
+    .logo{
+        width: 100%;
+        margin-left: 25%;
+    }
+    .logo img{
+        width: 75%;
+        height: auto;
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    .auther{
+        flex-wrap: wrap;
+    }
+    
+    .flex,.items,.menu,.nav{
+        flex-wrap: wrap;
+    }
+    .heading p{
+        font-family:NewYorkExtraLarge ;
+        font-size: 1.5rem;
+        width: 100%;
+        /* text-align: center; */
+    }
+}
+/* @media (min-width: 0px) and (max-width: 480px) {
+    body{
+        font-size: 0.8em;
+    }
+    
+    
+} */
+
+
+
+
+
+
+
+
+
+    /* NAVIGATION BAR */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.288);
+}
+.logo img{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ul li a{
+    font-family: NewYorkSmall;
+    text-decoration: none;
+    font-size: 1rem;
+    color:black;
+    padding:0% 10px 15px 10px;
+}
+ul li a:hover{
+    border-bottom: 4px solid black;
+    border-radius: 4px;
+}
+
+    /* HEADER PART  */
+
+.header{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin: 0% 20% 5% 20%;
+    align-items: center;
+
+}
+.heading p{
+    font-family:NewYorkExtraLarge ;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+.font{
+    font-family: SFMono;
+    font-size: 1rem;
+    width: 70%;
+    text-align: center;
+    margin: 0% 5% 0% 5%;
+}
+
+        /* AUTHER SECTION */
+
+.auther{
+    margin:0% 25% 0% 25% ;
+    display: flex;
+    justify-content: space-between;
+    font-family: SF Test Pro;
+}
+.div{
+    display: flex;
+}
+div.name{
+    margin-left: 0%;
+}
+.link{
+    padding: 25px 0px;
+}
+.link img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 20px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+div.article,.tag,.auth{
+    margin:0% 25% 3% 25%;
+    font-weight: 100px;
+    line-height: 150%;
+    font-family: NewYorkSmall;
+    text-align: justify;
+}
+.nose p{
+    margin:0% 10% 0% 10%;
+    text-align: center;
+}
+div.nose{
+    margin: 0% -19%;
+    text-align: center;
+    font-family: SFMono;
+}
+.links p{
+    display: inline;
+    font-size: 1rem;
+}
+.links{
+    margin:0% 25% 0% 25%;
+    display: flex;
+    justify-content: space-between;
+    font-family: SF Test Pro;
+    margin-bottom: 3%;
+    cursor:pointer;
+}
+.img1 img,.img2 img {
+    display: inline;
+}
+.img1,.img2{
+    padding: 2% 13.5% ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.auth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.auth p{
+    width: 80%;
+}
+.auth p strong {
+    cursor:pointer;
+}
+
+.hr hr{
+    margin-bottom: -3%;
+}
+.hr img{
+    margin:0% 25% 0% 45%;
+}
+.h3{
+    margin:0% 20% 0% 30%;
+    font-family: NewYorkExtraLarge;
+    font-size: 44px;
+}
+.flex{
+    display: flex;
+    margin: 5% 14%;
+    justify-content: space-evenly;
+}
+.items{
+    margin: 0% 2%;
+    cursor: pointer;
+}
+.items p{
+    text-align: center;
+    font-family: SF Display;
+    font-size: 20px;
+}
+
+.signup{
+    padding: 1% 5% 5% 5%;
+    margin: 5% 30%;
+    border: 1px solid black;
+    border-top: 5px solid black;
+    text-align: center;
+}
+.signup h3{
+    font-family: NewYorkExtraLarge;
+    font-size: 25px;
+}
+form input{
+    height: 30px;
+    margin-right: 0%;
+    border: 1px solid black;
+    outline:none;
+}
+.signup button{
+    cursor: pointer;
+    height: 34px;
+    margin-left: -1.5%;
+    background-color: black;
+    color: white;
+}
+.copyright p span:hover,.auth p strong:hover,.items:hover,.signup h3:hover {
+    text-decoration: underline;
+}
+.footer{
+    background-color: black;
+    height: 450px;
+}
+.footer p{
+    font-family: SF Test Pro;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.footer img{
+    filter:invert(100%);
+    height: 25px;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.footer div p,.social{
+    margin-left: 31%;
+    margin-bottom: 5%;
+    width: 40%;
+    font-family: SF Test Pro;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.social a{
+    padding: 2%;
+    text-decoration: none;
+    color:white;
+}
+.social a:hover{
+    text-decoration: underline;
+}
+    /* ANIMATION SECTION */
+    @keyframes animation {
+        from {
+            width: 0px;
+        }
+        to {
+            width: 6px;
+        }
+    }
