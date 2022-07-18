@@ -1,7 +1,12 @@
 # MAD-Assignments
 
 
+
+
 **ABOUT SAYLANI WELFARE**
+
+____________________________________________________________________________________________________________________________________________________________________
+
 
 Saylani Welfare International Trust is a non-government organization (NGO) focusing primarily on feeding the poor and homeless. It was established in May 1999 and is headquartered at Bahdurabad, Karachi, Pakistan.
 
@@ -40,4 +45,19 @@ Saylani Welfare Trust also provides aid to Rohingya living in refugee camps in B
 
 During the COVID-19 crisis, Saylani Welfare Trust provided free oxygen, food, rescue equipment and other supplies to hospitals and Covid-19 wards in the country. It also introduced mobile phone application and telephone service, where needy families can register themselves to get ration and other essential items.
 
-On 13 April 2020, reports emerged that rations were being denied to minority Hindus and Christians in the coastal areas of Karachi by Saylani Welfare workers. On 14 April 2020, the US Commission on International Religious Freedom (USCIRF) expressed concern regarding the reports about discrimination against the minorities in Karachi. Following the reports about Hindus and Christians in some parts of Karachi being denied food aid, other organisations such as the Edhi Foundation, JDC Welfare Organization and Jamaat-e-Islami stepped forward to provide rations to the minorities in those areas
+On 13 April 2020, reports emerged that rations were being denied to minority Hindus and Christians in the coastal areas of Karachi by Saylani Welfare workers. On 14 April 2020, the US Commission on International Religious Freedom (USCIRF) expressed concern regarding the reports about discrimination against the minorities in Karachi. Following the reports about Hindus and Christians in some parts of Karachi being denied food aid, other organisations such as the Edhi Foundation, JDC Welfare Organization and Jamaat-e-Islami stepped forward to provide rations to the minorities in those areas...
+
+____________________________________________________________________________________________________________________________________________________________________
+
+
+**About ASSIGNMENTS**
+
+____________________________________________________________________________________________________________________________________________________________________
+
+All Assignments related to my course are uploaded here...
+
+____________________________________________________________________________________________________________________________________________________________________
+
+
+
+
