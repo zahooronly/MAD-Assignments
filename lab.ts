@@ -8,10 +8,7 @@ function evenOdd(num:number=0):string {
     }
     return result;
 }
-// console.log(evenOdd(3));
-
-
-
+console.log(evenOdd(9));
 
 // ***********Maximum number finder;*************
 function maximumNumber(num1:number,num2:number,num3:number,num4:number):number{
@@ -21,12 +18,12 @@ function maximumNumber(num1:number,num2:number,num3:number,num4:number):number{
         if(num1>num3){
             if(num1>num4){
                 return num1;
+            }else {
+                return num4;
             }
         }else if(num3>num4){
-            maxNumber=num3;
             return num3;
         } else {
-            maxNumber=num4;
             return num4;
         }
     } else if(num2>num3){
@@ -41,5 +38,5 @@ function maximumNumber(num1:number,num2:number,num3:number,num4:number):number{
         return num4;
     }
 }
-console.log(maximumNumber(20,25,30,55));
+console.log(maximumNumber(80,90,100,101));
 // console.log(1,2,3,4)
