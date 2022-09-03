@@ -39,4 +39,3 @@ function maximumNumber(num1:number,num2:number,num3:number,num4:number):number{
     }
 }
 console.log(maximumNumber(80,90,100,101));
-// console.log(1,2,3,4)
