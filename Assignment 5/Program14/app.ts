@@ -7,4 +7,6 @@ if(d>0){
     let x1:number = (-b + Math.sqrt(d))/(2*a);
     let x2:number = (-b - Math.sqrt(d))/(2*a);
     console.log("The roots of the equation are: " + x1 + " and " + x2);
+}else {
+    console.log("The equation has no real roots");
 }
